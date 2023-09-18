@@ -41,7 +41,6 @@ function DrawerGroup() {
             }}>
             <Drawer.Screen name="Home" component={HomeStackGroup} />
             <Drawer.Screen name="Favorites" component={Favorites} />
-            <Drawer.Screen name="Homes" component={Home} />
         </Drawer.Navigator>
     );
 }
@@ -85,7 +84,6 @@ function TopTabsGroup() {
                 }}
             />
             <TopTabs.Screen name="HomeDetails" component={HomeDetails} />
-            <TopTabs.Screen name="Favorites" component={Favorites} />
 
         </TopTabs.Navigator>
     );
